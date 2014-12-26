@@ -1,7 +1,7 @@
 /*
 Green: #61ce27
 Light blue: #30afff
-Dark blue: #2c3cea;
+Dark blue: #2c3cea
 Orange: #ffac30
 */
 
@@ -13,6 +13,23 @@ body {
 
 .navbar {
   background: #30afff;
+}
+
+.navbar .navbar-toggle {
+  background-color: #30afff;
+  border-color: #30afff;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:active,
+.navbar .navbar-toggle:focus {
+  background-color: #30afff;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default {
+  border: 0;
 }
 
 .navbar-default .navbar-brand,
